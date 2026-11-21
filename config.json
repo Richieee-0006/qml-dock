@@ -1,0 +1,28 @@
+{
+  "appearance": {
+    "fontFamily": "Inter",
+    "materialIconFont": "Material Design Icons"
+  },
+  "paths": {
+    "pywalColors": "~/.cache/wal/colors.json",
+    "pywalBarColors": "~/.cache/wal/colors-bar.json",
+    "pywalDockColors": "~/.cache/wal/colors-dock.json"
+  },
+  "dock": {
+    "enabled": true,
+    "iconSize": 32,
+    "height": 52,
+    "borderRadius": 24,
+    "marginBottom": 12,
+    "exclusive": true,
+    "launcherCommand": "vicinae toggle",
+    "launcherIcon": "󰀻",
+    "pinned": [
+      "librewolf",
+      "org.kde.dolphin",
+      "kitty",
+      "obsidian",
+      "equibop"
+    ]
+  }
+}

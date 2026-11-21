@@ -1,0 +1,7 @@
+module qs.services
+singleton Hypr Hypr.qml
+singleton Pywal Pywal.qml
+singleton Logger Logger.qml
+singleton UIState UIState.qml
+singleton IconResolver IconResolver.qml
+PywalTheme PywalTheme.qml
