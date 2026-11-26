@@ -15,8 +15,8 @@ QtObject {
     // Exclusive zone reserves space at screen bottom so tiled windows don't overlap
     property bool exclusive: true
 
-    // Launcher command (-c 'vicinae toggle')
-    property string launcherCommand: "vicinae toggle"
+    // Launcher command
+    property string launcherCommand: "$HOME/.local/bin/spot-launch-apps"
     property string launcherIcon: "󰀻"
 
     // Default pinned applications

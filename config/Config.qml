@@ -45,7 +45,7 @@ Singleton {
         spacing: root.data.dock?.spacing ?? 4
         itemPadding: root.data.dock?.itemPadding ?? 6
         exclusive: root.data.dock?.exclusive ?? true
-        launcherCommand: root.data.dock?.launcherCommand ?? "vicinae toggle"
+        launcherCommand: root.data.dock?.launcherCommand ?? "$HOME/.local/bin/spot-launch-apps"
         launcherIcon: root.data.dock?.launcherIcon ?? "󰀻"
         pinned: root.data.dock?.pinned ?? [
             "librewolf",

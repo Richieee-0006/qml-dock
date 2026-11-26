@@ -15,7 +15,7 @@
     "borderRadius": 24,
     "marginBottom": 12,
     "exclusive": true,
-    "launcherCommand": "vicinae toggle",
+    "launcherCommand": "$HOME/.local/bin/spot-launch-apps",
     "launcherIcon": "󰀻",
     "pinned": [
       "librewolf",
