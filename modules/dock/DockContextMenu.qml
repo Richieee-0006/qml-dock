@@ -1177,7 +1177,7 @@ PopupWindow {
                         text: "Search & Apps"
                         shortcut: "Super + Space"
                         action: () => {
-                            Quickshell.execDetached(["vicinae", "toggle"])
+                            Quickshell.execDetached([Quickshell.env("HOME") + "/.local/bin/spot-launch-apps"])
                             root.closeMenu()
                         }
                     }
